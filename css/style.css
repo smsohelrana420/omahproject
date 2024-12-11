@@ -160,3 +160,75 @@ header nav .nav_wrapper ul li a:hover::after{
    
 }
 /* =================== Banner End ======================= */
+
+/* ==================== Properti Start ======================= */
+
+#properti h2{
+    width: 533px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #203239;
+    line-height: 150%;
+    font-family: "Poppins", sans-serif;
+    margin-top: 30px;
+
+}
+.cart{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    
+}
+.cart-1::after{
+    content: "";
+    width: 7px;
+    height: 27px;
+    background-color: #F6762E;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    border-radius: 50px;
+}
+.cart-1{
+    width: 300px;
+    box-shadow: 0 4px 4px 0px rgba(32, 50, 57,.25);
+    padding: 20px 33px;
+    position: relative;
+}
+.number{
+    display: flex;
+    align-items: center;
+}
+.num{
+    margin-left: 130px;
+}
+.number h4{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #203239;
+
+}
+.number h5{
+    color: #F6762E;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+.cart-1 p{
+    width: 232px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    font-family: "Poppins", sans-serif;
+}
+.cart-1 a{
+    margin-top: 30px;
+    display: inline-block;
+    text-decoration: none;
+    color: #203239;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+
+}
+/* ==================== Properti End ========================= */
