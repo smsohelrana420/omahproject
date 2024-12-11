@@ -16,6 +16,8 @@
 /* ====================== Header Start ============================== */
 
 header{
+    width: 100%;
+    position: absolute;
     padding-top: 30px;
 }
 
@@ -76,3 +78,85 @@ header nav .nav_wrapper ul li a:hover::after{
 }
  
 /* ====================== Header End ================================ */
+
+/* =================== Banner Start ======================= */
+
+
+#banner{
+
+    background-color: #EEEDDE;
+    padding-top: 96px;
+}
+.banner_wrapper{
+    display: flex;
+}
+.banner-text{
+    margin-top: 150px;
+}
+.banner-text h1{
+    width: 777px;
+    font-size: 56px;
+    font-weight: 600;
+    color: #203239;
+    line-height: 150%;
+    font-family: "Poppins", sans-serif;
+}
+.banner-text p{
+    width: 544px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    line-height: 30px;
+    color: rgba(32, 50, 57,.55);
+    margin-top: 24px;
+
+}
+.input-box{
+    position: relative;
+    margin-top: 56px;
+}
+.input-box input{
+    width: 508px;
+    padding: 23px 0;
+    border: none;
+    border-radius: 15px;
+    padding-left: 56px;
+    font-size: 16px;
+    color: rgba(32, 50, 57,.55);
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    
+
+}
+.input-box button{
+    width: 138px;
+    padding: 23px 0;
+    border-radius: 15px;
+    border: none;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    color: rgba(32, 50, 57,.55);
+    font-weight: 300;
+    margin-left: 15px;
+}
+.location{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+
+}
+.banner_wrapper .banner-image img{
+    display: flex;
+    justify-content: end;
+    
+    
+}
+.banner-image img{
+    padding-top: 50px;
+    padding-bottom: 120px;
+    margin-left: 16px;
+    
+   
+}
+/* =================== Banner End ======================= */
