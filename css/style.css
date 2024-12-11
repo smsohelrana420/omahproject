@@ -316,8 +316,8 @@ header nav .nav_wrapper ul li a:hover::after{
     font-size: 16px;
     font-weight: 600;
     color: #fff;
-    font-family: "Poppins", sans-serif;
     border: none;
+    font-family: "Poppins", sans-serif;
     margin-left: 30px;
     transition: 0.4s;
 }
@@ -326,6 +326,7 @@ header nav .nav_wrapper ul li a:hover::after{
     background-color: transparent;
     border: 2px solid #203239;
     color: #203239;
+  
     
 }
 .phn{
@@ -333,5 +334,51 @@ header nav .nav_wrapper ul li a:hover::after{
     left: 30px;
     top:50%;
     transform: translateY(-50%);
+    font-size: 18px;
 }
 /* ===================== Residen End ========================== */
+
+/* ===================== Barbagai Start ========================= */
+#berbagai{
+    margin-top: 50px;
+}
+#berbagai h4{
+ color: #F6762E;
+ font-weight: 500;
+ font-size: 16px;
+ font-family: "Poppins", sans-serif;
+
+}
+#berbagai h3{
+ color: #203239;
+ font-weight: 600;
+ font-size: 36px;
+ line-height: 150%;
+ font-family: "Poppins", sans-serif;
+
+}
+.bar-1{
+    margin-top: 30px;
+}
+.bar-1 h5{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+    font-family: "Poppins", sans-serif;
+    color: #203239;
+
+}
+.bar-1 p{
+    width: 356px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    font-family: "Poppins", sans-serif;
+    color: #203239;
+
+}
+.berbagai_wrapper{
+    display: flex;
+    gap: 30px;
+}
+/* ===================== Barbagai End =========================== */
