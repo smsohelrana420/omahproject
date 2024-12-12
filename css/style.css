@@ -341,6 +341,7 @@ header nav .nav_wrapper ul li a:hover::after{
 /* ===================== Barbagai Start ========================= */
 #berbagai{
     margin-top: 50px;
+    padding-bottom: 50px;
 }
 #berbagai h4{
  color: #F6762E;
@@ -382,3 +383,100 @@ header nav .nav_wrapper ul li a:hover::after{
     gap: 30px;
 }
 /* ===================== Barbagai End =========================== */
+
+/* ====================== Footer Start ========================== */
+#footer-top{
+    background-color: #EEEDDE;
+    
+}
+#footer-top h2{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #203239;
+    line-height: 150%;
+    padding-top: 30px;
+
+}
+.footerbox1{
+    display: flex;
+    background-color: #fff;
+    width: 274px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.footer-icon{
+    margin-top: -80px;
+    margin-right: 20px;
+}
+.footer-text p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #203239;
+    font-family: "Poppins", sans-serif;
+}
+.footer-text a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #203239;
+    font-family: "Poppins", sans-serif;
+
+}
+.footerbtn{
+    margin-top: 30px;
+
+}
+.footerbtn button{
+    width: 109px;
+    font-size: 16px;
+    padding: 10px 0px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #203239;
+    border-radius: 5px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+}
+.footer_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+.footer-right{
+    margin-left: 200px;
+}
+.footer-right h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #203239;
+    font-family: "Poppins", sans-serif;
+    margin-top: -50px;
+
+}
+.footer-right img{
+    margin-top: 30px;
+}
+#footer-bottom{
+    background-color: #203239;
+    padding-top: 20px;
+}
+.footerbottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerbottom ul{
+    display: flex;
+    gap: 30px;
+}
+.footerbottom ul li{
+    list-style: none;
+    color: #FFFFFF;
+}
+/* ====================== Footer End ========================== */
